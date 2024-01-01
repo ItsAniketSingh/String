@@ -32,4 +32,8 @@ class Solution {
         }  
         return counter;      
     }
+  public static void main(string []args){
+      numJewelsInStones a = new numJewelsInStones();
+
+  }
 }
