@@ -1,4 +1,5 @@
 /*
+    1108
 Given a valid (IPv4) IP address, return a defanged version of that IP address.
 
 A defanged IP address replaces every period "." with "[.]".
@@ -22,4 +23,14 @@ class Solution {
         return address.replace(".","[.]");
         
     }
+}
+public class DefangingAnIPAddress {
+
+    public static void main(String[] args) {
+        Solution s = new Solution();
+         System.out.println( s.defangIPaddr("12.1.1.1"));
+        
+    }
+   
+   
 }
