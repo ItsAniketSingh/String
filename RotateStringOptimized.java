@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 /*
     796
@@ -71,6 +72,8 @@ public class RotateStringOptimized {
     }
 }
 =======
+=======
+>>>>>>> f92187842182238ee0372fa5bbf49c655bfcfe14
 
 /*
     796
@@ -142,4 +145,7 @@ public class RotateStringOptimized {
         
     }
 }
+<<<<<<< HEAD
 >>>>>>> f921878 (String Problems)
+=======
+>>>>>>> f92187842182238ee0372fa5bbf49c655bfcfe14

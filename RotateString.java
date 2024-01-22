@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*
     796
     Given two strings s and goal, return true if and only if s can become goal after some number of shifts on s.
@@ -41,6 +42,8 @@ public class RotateString {
     }
 }
 =======
+=======
+>>>>>>> f92187842182238ee0372fa5bbf49c655bfcfe14
 /*
     796
     Given two strings s and goal, return true if and only if s can become goal after some number of shifts on s.
@@ -82,4 +85,7 @@ public class RotateString {
         
     }
 }
+<<<<<<< HEAD
 >>>>>>> f921878 (String Problems)
+=======
+>>>>>>> f92187842182238ee0372fa5bbf49c655bfcfe14
