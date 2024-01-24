@@ -20,9 +20,11 @@ merged: a p b q c r
 
 
  */
-class Solution {
+
+public class MergeStringsAlternately {
+
     public String mergeAlternately(String word1, String word2) {
-         StringBuilder merged = new StringBuilder();
+        StringBuilder merged = new StringBuilder();
         int i = 0, j = 0;
         while (i < word1.length() && j < word2.length()) {
             merged.append(word1.charAt(i++));
@@ -37,13 +39,8 @@ class Solution {
         return merged.toString();
 
     }
-}
 
-
- public class MergeStringsAlternately {
- 
     public static void main(String[] args) {
-        
-        
+
     }
- }
+}

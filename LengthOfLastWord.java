@@ -21,7 +21,8 @@ Explanation: The last word is "moon" with length 4.
 
 
 
- */
+ 
+*/
 
 class Solution {
     public int lengthOfLastWord(String s) {
