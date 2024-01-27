@@ -26,7 +26,7 @@ public class AnagramOfAString {
     class Solution
 {    
     //Function is to check whether two strings are anagram of each other or not.
-    public static boolean isAnagram(String a,String b)
+    public static boolean isAnagram(CreateString a,CreateString b)
     {
         
         // Your code here
@@ -46,7 +46,7 @@ public class AnagramOfAString {
         return true;
     }
 }
-    public static void main(String[] args) {
+    public static void main(CreateString[] args) {
         
     }
 }
