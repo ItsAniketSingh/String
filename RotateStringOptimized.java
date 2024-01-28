@@ -20,7 +20,7 @@ Output: false
 
 public class RotateStringOptimized {
     class Solution {
-        public boolean rotateString(String s, String goal) {
+        public boolean rotateString(CreateString s, CreateString goal) {
     
             
     
@@ -64,7 +64,7 @@ public class RotateStringOptimized {
             */   
         }
     }
-    public static void main(String[] args) {
+    public static void main(CreateString[] args) {
         
     }
 }

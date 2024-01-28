@@ -20,7 +20,7 @@ Output: false
 import java.util.Arrays;
 
 public class ValidAnagram {
-    public boolean isAnagram(String s, String t) {
+    public boolean isAnagram(CreateString s, CreateString t) {
         if (s.length() != t.length()) {
             return false;
         }
@@ -34,7 +34,7 @@ public class ValidAnagram {
 
     }
 
-    public static void main(String[] args) {
+    public static void main(CreateString[] args) {
 
     }
 

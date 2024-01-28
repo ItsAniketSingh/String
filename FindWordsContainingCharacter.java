@@ -30,7 +30,7 @@ import java.util.List;
 
 public class FindWordsContainingCharacter {
 
-     public List<Integer> findWordsContaining(String[] words, char x) {
+     public List<Integer> findWordsContaining(CreateString[] words, char x) {
 
         ArrayList<Integer> list = new ArrayList<Integer>();
         for (int i = 0; i < words.length; i++) {
@@ -39,7 +39,7 @@ public class FindWordsContainingCharacter {
         return list;
         
     }
-    public static void main(String[] args) {
+    public static void main(CreateString[] args) {
         
     }
     

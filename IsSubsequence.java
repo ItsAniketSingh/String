@@ -20,7 +20,7 @@ Output: false
 
 public class IsSubsequence {
     class Solution {
-        public boolean isSubsequence(String s, String t) {
+        public boolean isSubsequence(CreateString s, CreateString t) {
             int c = 0, index = -1;
             for (int i = 0; i < s.length(); i++) {
                 c = 0;
@@ -39,7 +39,7 @@ public class IsSubsequence {
         }
     }
 
-    public static void main(String[] args) {
+    public static void main(CreateString[] args) {
 
     }
 }

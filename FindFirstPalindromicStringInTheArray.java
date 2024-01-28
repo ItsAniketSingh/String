@@ -26,7 +26,7 @@ Explanation: The first and only string that is palindromic is "racecar".
 
 public class FindFirstPalindromicStringInTheArray {
     static class Solution {
-        public boolean isPalindrom(String s){
+        public boolean isPalindrom(CreateString s){
             int i =0;
             int n = s.length()-1;
             while(i<n){
@@ -38,9 +38,9 @@ public class FindFirstPalindromicStringInTheArray {
             }
             return true;
         }
-        public String firstPalindrome(String[] words) {
+        public CreateString firstPalindrome(CreateString[] words) {
     
-            for(String s : words){
+            for(CreateString s : words){
                 if(isPalindrom(s)){
                     return s;
                 }
@@ -49,8 +49,8 @@ public class FindFirstPalindromicStringInTheArray {
             
         }
     }
-    public static void main(String[] args) {
-        String[]  words = {"notapalindrome","racecar"};
+    public static void main(CreateString[] args) {
+        CreateString[]  words = {"notapalindrome","racecar"};
 
        
     }

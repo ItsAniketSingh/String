@@ -31,9 +31,9 @@ import java.util.Set;
 
 public class StringMatchingInAnArray {
     class Solution {
-    public List<String> stringMatching(String[] words) {
+    public List<CreateString> stringMatching(CreateString[] words) {
         int n = words.length;
-        Set<String> result = new HashSet<>();
+        Set<CreateString> result = new HashSet<>();
         for(int i =0;i<n ; i++ ){
             for(int j = i+1; j<n ; j++){
                 if(words[i].contains(words[j])){
@@ -46,7 +46,7 @@ public class StringMatchingInAnArray {
         return new ArrayList(result);
     }
 }
-    public static void main(String[] args) {
+    public static void main(CreateString[] args) {
         
     }
 }
