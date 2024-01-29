@@ -25,11 +25,11 @@ second last is at second position and so on .
 
 public class ReverseAString {
     class Solution {
-        static CreateString revStr(CreateString S) {
+        static String revStr(String S) {
             
             // code here
             
-            CreateString newS = "";
+            String newS = "";
             int n = S.length();
             for(int i = n-1; i>=0 ; i--){
                 newS+=S.charAt(i);
@@ -37,7 +37,7 @@ public class ReverseAString {
             return newS;
         }
     }
-    public static void main(CreateString[] args) {
+    public static void main(String[] args) {
         
     }
 }

@@ -24,7 +24,7 @@ Output: "leotcede"
 
 public class ReverseVowelsOfAString {
     class Solution {
-        public CreateString reverseVowels(CreateString s) {
+        public String reverseVowels(String s) {
             int i = 0; 
             int n = s.length()-1;
             char temp;
@@ -46,14 +46,14 @@ public class ReverseVowelsOfAString {
     
     
             }
-            CreateString result = new CreateString(ch);
+            String result = new String(ch);
             return result;
     
     
             
         }
     }
-    public static void main(CreateString[] args) {
+    public static void main(String[] args) {
         
     }
 }

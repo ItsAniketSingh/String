@@ -12,7 +12,7 @@ Explanation: S is a palindrome
 
 public class PalindromeString {
     class Solution {
-        int isPalindrome(CreateString S) {
+        int isPalindrome(String S) {
             // code here
             int n = S.length();
             for(int i = 0;i < (n/2); i++){
@@ -23,7 +23,7 @@ public class PalindromeString {
             return 1;
         }
     };
-    public static void main(CreateString[] args) {
+    public static void main(String[] args) {
         
     }
 }

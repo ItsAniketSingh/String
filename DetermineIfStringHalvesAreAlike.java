@@ -26,7 +26,7 @@ Notice that the vowel o is counted twice.
 
 
 public class DetermineIfStringHalvesAreAlike {
-    class Solution {
+
         public boolean halvesAreAlike(String s) {
             int n = s.length()/2;
             String a = s.substring(0,n+1);
@@ -50,7 +50,7 @@ public class DetermineIfStringHalvesAreAlike {
             return false;
     
         }
-    }
+    
     public static void main(String[] args) {
         
     }

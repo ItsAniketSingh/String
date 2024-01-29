@@ -22,7 +22,7 @@ Output: false
 public class RotateString {
     
 
-        public static boolean rotate(CreateString goal, CreateString newS, int i ){
+        public static boolean rotate(String goal, String newS, int i ){
             if(i == goal.length()){
                 return false;
             }
@@ -32,11 +32,11 @@ public class RotateString {
             char ch = newS.charAt(0);
             return rotate(goal, newS.substring(1)+ch, i+1);
         }
-        public boolean rotateString(CreateString s, CreateString goal) {
+        public boolean rotateString(String s, String goal) {
             return rotate(goal,s,0);
         }
     
-    public static void main(CreateString[] args) {
+    public static void main(String[] args) {
         
     }
 }

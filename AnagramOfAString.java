@@ -23,30 +23,28 @@ Explanation: Both the string have same characters with
 import java.util.Arrays;
 
 public class AnagramOfAString {
-    class Solution
-{    
-    //Function is to check whether two strings are anagram of each other or not.
-    public static boolean isAnagram(CreateString a,CreateString b)
-    {
-        
+
+    // Function is to check whether two strings are anagram of each other or not.
+    public static boolean isAnagram(String a, String b) {
+
         // Your code here
-        char[]c1 = a.toCharArray();
-        char[]c2 = b.toCharArray();
-        if(a.length() != b.length()){
+        char[] c1 = a.toCharArray();
+        char[] c2 = b.toCharArray();
+        if (a.length() != b.length()) {
             return false;
         }
         Arrays.sort(c1);
         Arrays.sort(c2);
-        
-        for(int i = 0; i< a.length(); i++){
-            if(c1[i] != c2[i]){
+
+        for (int i = 0; i < a.length(); i++) {
+            if (c1[i] != c2[i]) {
                 return false;
             }
         }
         return true;
     }
-}
-    public static void main(CreateString[] args) {
-        
+
+    public static void main(String[] args) {
+
     }
 }

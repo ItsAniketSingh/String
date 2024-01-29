@@ -22,14 +22,14 @@ Explanation: "leeto" did not occur in "leetcode", so we return -1.
 
 
 public class FindTheIndexOfTheFirstOccurrenceInAString {
-    class Solution {
+    
         public int strStr(String haystack, String needle) {
             int idx = 0;
             idx = haystack.indexOf(needle);
             return idx;
             
         }
-    }
+    
     public static void main(String[] args) {
         
     }

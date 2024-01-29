@@ -20,10 +20,10 @@ The strings are the same, so return true.
  */
 
  class Solution {
-    public boolean arrayStringsAreEqual(CreateString[] word1, CreateString[] word2) {
+    public boolean arrayStringsAreEqual(String[] word1, String[] word2) {
         
-        CreateString newWord1 = "";
-        CreateString newWord2 = "";
+        String newWord1 = "";
+        String newWord2 = "";
         for(int i =0; i< word1.length;i++ ){
             newWord1 += word1[i];
         }
@@ -36,7 +36,7 @@ The strings are the same, so return true.
 
 
 public class CheckIfTwoStringArraysAreEquivalent {
-    public static void main(CreateString[] args) {
+    public static void main(String[] args) {
         
         
     }
