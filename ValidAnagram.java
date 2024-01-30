@@ -19,7 +19,9 @@ Output: false
 
 import java.util.Arrays;
 
+
 public class ValidAnagram {
+     
     public boolean isAnagram(String s, String t) {
         if (s.length() != t.length()) {
             return false;
