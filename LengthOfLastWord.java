@@ -24,33 +24,31 @@ Explanation: The last word is "moon" with length 4.
  
 */
 
-class Solution {
-    public int lengthOfLastWord(String s) {
-       int n = s.length();
-       int count = 0;
-
-       while(n != 0){
-           if(s.charAt(n-1) == ' ' && count == 0){
-               n--;
-               continue;
-           }
-           else{
-               if(s.charAt(n-1) == ' '){
-                   break;
-               }
-               count++;
-               n--;
-           }
-       }
-       return count;
-        
-    }
-}
 
 
 public class LengthOfLastWord {
+
+    public int lengthOfLastWord(String s) {
+        int n = s.length();
+        int count = 0;
+ 
+        while(n != 0){
+            if(s.charAt(n-1) == ' ' && count == 0){
+                n--;
+                continue;
+            }
+            else{
+                if(s.charAt(n-1) == ' '){
+                    break;
+                }
+                count++;
+                n--;
+            }
+        }
+        return count;
+         
+     }
     public static void main(String[] args) {
-        Solution s = new Solution();
-        System.out.println(s.lengthOfLastWord("This is Aniket"));
+       
     }
 }

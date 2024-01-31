@@ -27,6 +27,7 @@ Explanation: s can be split into "RL", "RRLL", "RL", "RL", each substring contai
         int cha = 0;
 
         for(int i =0 ; i< s.length();i++){
+            
             if(s.charAt(i) == 'R'){
                 cha++;
             }
